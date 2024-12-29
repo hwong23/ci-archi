@@ -1,8 +1,6 @@
-# Docker Image to run Archi Script in a container
+# Docker Image para ejecución JArchi (archimate) en un contenedor
 
-This image is intended to be used with [Archi](https://www.archimatetool.com) mainly for the use-case of generateing content from a model in CI/CD pipeline context.
-
-Basically a wrapper for `Archi -application com.archimatetool.commandline.app -consoleLog -nosplash $ARGS`
+Esta imagen debe junto con [Archi](https://www.archimatetool.com) para el caso de uso de generación de contenidos desde un modelo mediante una cadena de CI/CD.
 
 ## How to use
 
